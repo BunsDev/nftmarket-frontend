@@ -1,8 +1,15 @@
 {
-  "name": "syfin-nftmarket",
+  "name": "nftmarket",
   "version": "1.4.3",
   "private": true,
   "proxy": "https://nft.sy.finance/api",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "bdev": "react-scripts build && react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@google/model-viewer": "^1.8.0",
     "axios": "^0.21.1",
@@ -42,12 +49,6 @@
     "@truffle/hdwallet-provider": "^1.4.1",
     "truffle": "^5.3.14",
     "truffle-plugin-verify": "^0.5.11"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
